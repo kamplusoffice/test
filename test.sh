@@ -1,3 +1,3 @@
-#!/bin/sh
-echo "tst"
-vmstat 1 5
+#!/bin/bash
+
+echo "Echo test"
