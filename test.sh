@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "Echo test check pid"
+echo -e "\033[31;7mTest\e[0m";
 
- ps -Af | grep "jenkins" | grep -v grep | awk '{print$2}'
+ ps -Af | grep "java" | grep -v grep | awk '{print$2}'
